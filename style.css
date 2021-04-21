@@ -1,0 +1,240 @@
+/*COLORS
+bg - #e1d5c0
+dark - #202020
+text title - #dba829
+text - #ffffff
+*/
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #e1d5c0;
+}
+
+/*---------------------------------------------------------------------------------- NAV BAR SECTION ----------------------------*/
+.heading{
+    background-image: url("bglogo.png");
+    position: relative;
+    background-repeat: no-repeat;
+    height: 250px;
+}
+.heading-container{
+    text-align: center;
+    position: relative;
+}
+.heading-logo{
+	display: inline-block;
+	transition: 0.1s ease;
+    position: relative;
+}
+/*---------------------------------------------------------------------------------- NAVIGATIOON ----------------------------*/
+.navbar-links{
+    margin-top: 2%;
+    vertical-align: middle;
+}
+.navbar-container{
+    text-align: center;
+    position: relative;
+    height: 100px;
+}
+ul.navbar-links li {
+    display: inline;
+    list-style-type: none;
+    margin: 5px;
+    padding: 2px;
+}
+
+.navtext{
+    padding-right: 25px;
+    padding-left: 25px;
+    text-align: center;
+    text-decoration: none;
+    font-family: serif;
+    color: #202020;
+    font-size: 40px;
+}
+.home{
+    padding-right: 25px;
+    padding-left: 25px;
+    text-align: center;
+    text-decoration: underline;
+    font-family: serif;
+    color: #dba829;
+    font-size: 40px;
+}
+.home:hover{
+    border: 2px solid #202020;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.navtext:hover{
+    border: 2px solid #202020;
+    border-radius: 10px;
+    color: #dba829;
+}
+
+
+/*---------------------------------------------------------------------------------- BODY ----------------------------*/
+.caption{
+    font-family: sans-serif;
+    color: white;
+    font-size: 30px;
+    margin: 5%;
+    padding: 5%;
+    letter-spacing: 3px;
+    text-align: center;
+}
+.content-container {
+    display: flex;
+    justify-content: center;
+  }
+.bodyborder{
+    margin: 5%;
+    text-align: center;
+    border: 3px solid #e1d5c0;
+    border-radius:  30px 0 30px 0;
+    box-shadow: rgba(255, 255, 255, 0.25) 0px 14px 28px, rgba(255, 255, 255, 0.22) 0px 0px 10px;
+}
+table{
+    width: 100%;
+    text-align: justify;
+}
+th{
+    padding: 5%;
+    border-bottom: 2px solid #dba829;
+}
+td{
+    padding-top: 5%;
+}
+  /*---------------------------------------------------------------------------------- right ad ----------------------------*/
+.rightpane-ad {
+    background-image: url("refe/milktea ads.jpg");
+    background-size: 300px 500px;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 500px;
+    margin-left: 20px;
+    margin-top: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  }
+  .rightpane-ad h1{
+    font-weight: 800;
+    font-family: sans-serif;
+    color: #202020;
+    font-size: 30px;
+    margin-left: 25%;
+    margin-right: 2%;
+    margin-top: 5%;
+    text-align: justify;
+    -webkit-text-stroke-width: .5px;
+    -webkit-text-stroke-color: #fff;
+}
+.rightpane-ad h2{
+    font-family: sans-serif;
+    color: #202020;
+    font-size: 70px;
+    margin-left: 10%;
+    margin-top: 1%;
+    text-align: justify;
+    background-image: -webkit-linear-gradient(left, #202020 , #dba829, #dba829, #dba829);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #fff;
+}
+
+  /*---------------------------------------------------------------------------------- left ad ----------------------------*/
+.leftpane-ad {
+    background-image: url("refe/coffeeads.jpg");
+    background-size: 300px 500px;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 500px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  }
+.leftpane-ad h1{
+    font-family: serif;
+    color: #202020;
+    font-size: 30px;
+    margin-left: 6%;
+    margin-right: 2%;
+    margin-top: 10%;
+    text-align: justify;
+}
+.leftpane-ad h2{
+    font-family: sans-serif;
+    color: #202020;
+    font-size: 80px;
+    margin-left: 8%;
+    margin-top: 1%;
+    text-align: justify;
+    background-image: -webkit-linear-gradient(left, #202020 , #dba829, #dba829, #dba829);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #fff;
+}
+.linkleft{
+    font-family: sans-serif;
+    margin-left: 30%;
+    text-decoration: none;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    background-color: #202020;
+    width: 50%;
+    text-align: center;
+    border: 3px solid #dba829;
+    border-radius: 0 10px 0 10px;
+}
+.main-content {
+    background-image: url("refe/bg2.jpg");
+    background-size: cover;
+    width: 800px;
+    height: relative;
+    margin-left: 20px;
+    margin-top: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  }
+.main-content-container{
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Lucida Sans';
+    font-size: 35px;
+    padding-top: 20px;
+}
+.main-content-title{
+    text-align: center;
+    color: #dba829;
+    font-family: 'Brush Script MT', 'Brush Script Std', cursive;
+    font-size: 50px;
+    padding-top: 20px;
+}
+.imagewrap{
+    margin: 30px;
+}
+
+
+/*---------------------------------------------------------------------------------- FOOTER ----------------------------*/
+
+  footer {
+    background: #202020;
+    width: 100%;
+    height: 200px;
+    margin-top: 20px;
+    font-family: serif;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: lighter;
+    text-align: center;
+    letter-spacing: 3px;
+    position: relative;
+  }
